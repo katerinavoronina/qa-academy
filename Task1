@@ -1,0 +1,17 @@
+Элемент с актуальной «сегодняшней» датой
+//input[contains(@class, 'date-input' ) and contains(@value, '13 мая')][1]
+Элемент с конкретной датой текущего месяца (25 мая)
+//input[contains(@value, '25 мая') and @placeholder='Обратно']
+Кнопка поиска отелей
+//ul[@class='form-tabs']//child::a[@href='#hotel']
+Кнопка для смены валюты
+//div[contains(@class,'--locale')]//descendant::button
+Логотип
+//span[contains(@class,'logo')]//descendant::*[1]
+Кнопка для изменения направления
+//div[@class='swap-places']   
+Иконка профиля
+//div[@class='navbar__control']//descendant::div[2]
+Кнопка профиля
+//div[@class='navbar__control']//descendant::div[3]
+//*[text()='Профиль']
